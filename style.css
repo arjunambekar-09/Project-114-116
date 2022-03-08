@@ -1,0 +1,15 @@
+h2{
+    font-size: 25px !important;
+}
+.btn:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 30px rgb(255, 30, 0);}
+    to{box-shadow: 1px 1px 39px rgb(251, 255, 0);}
+}
